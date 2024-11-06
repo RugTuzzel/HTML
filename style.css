@@ -1,0 +1,21 @@
+body{
+    background-color: wheat;
+    margin: 5% 5% 5% 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/*To make image circle*/
+#image{
+    border-radius: 80%;
+}
+
+.listing{
+    text-align: left;
+}
+
+/* To make blue text and underline of link disappear*/
+.listing a{
+    text-decoration: none;
+    color: black;
+}
