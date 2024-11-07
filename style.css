@@ -19,3 +19,21 @@ body{
     text-decoration: none;
     color: black;
 }
+
+
+.table table,th,td{
+    border: solid;
+    text-align: center;
+    max-width: fit-content;
+    border-collapse: collapse;
+}
+
+.table th,td{
+    padding: 10px;
+    text-align: center;
+}
+
+.table tr:not(:first-child):hover{
+    background-color:rgb(100, 141, 141);
+    cursor: pointer;
+}
